@@ -65,7 +65,7 @@ const Header = () => {
               ✕
             </button>
           </div>
-          <div className='flex flex-col list-none text-gray-900  items-center gap-11 font-bold text-3xl mt-5 '>
+          <div className='flex flex-col list-none text-gray-900 dark:text-white items-center gap-11 font-bold text-3xl mt-5 '>
             <li className=''><NavLink to="/" onClick={toggleMobileMenu}>Home</NavLink></li>
             <li><NavLink to="/Tech" onClick={toggleMobileMenu}>Tech Stack</NavLink></li>
             <li><NavLink to="/Project" onClick={toggleMobileMenu}>Project</NavLink></li>
