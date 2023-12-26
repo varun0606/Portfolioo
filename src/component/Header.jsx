@@ -51,7 +51,7 @@ const Header = () => {
 
       {/* Sidebar for Mobile */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden fixed top-0 left-0 h-full w-full bg-white dark:bg-slate-800 overflow-y-auto z-50">
+        <div className="lg:hidden fixed top-0 left-0 h-full w-full bg-white dark:bg-slate-800 dark:text-white overflow-y-auto z-50">
           <div className="flex items-center justify-between p-4">
           <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
